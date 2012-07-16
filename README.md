@@ -5,7 +5,7 @@ Bootstrap Glyphicons Support
 
 Whenever possible larger GLYPHICONS halflings names have been mapped. Otherwise the CSS class definition follows the names set by the files in the zip.
 
-To use this within your site you *NEED* to do the following:
+To use this within your site you **NEED** to do the following:
 
  1. Download `bootstrap.icon-large.min.css` and place it in the same directory as bootstrap.css file
  2. Download `glyphicons.png` and place it in the same directory as glyphicons-halflings.png
