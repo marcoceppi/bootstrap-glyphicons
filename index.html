@@ -663,25 +663,22 @@
   <div class="row">
     <div class="span4">
       <h3>Built as a sprite</h3>
-      <p>Instead of making every icon an extra request, we've compiled them into a sprite&mdash;a bunch of images in one file that uses CSS to position the images with <code>background-position</code>. This is the same method we use on Twitter.com and it has worked well for us.</p>
-      <p>All icons classes are prefixed with <code>.icon-</code> for proper namespacing and scoping, much like our other components. This will help avoid conflicts with other tools.</p>
-      <p><a href="http://glyphicons.com" target="_blank">Glyphicons</a> has granted us use of the Halflings set in our open-source toolkit so long as we provide a link and credit here in the docs. Please consider doing the same in your projects.</p>
+      <p>Just like Twitter's Bootstrap, this drop-in uses sprites. I compiled all the Glyphicons FREE in to a sprite. icon-large.css creates a <code>icon-large</code> CSS class which can be applied like <code>icon-white</code></p>
+      <p>All icons classes are prefixed with <code>.icon-</code> for proper namespacing and scoping, much like the other Bootstrap components.</p>
+      <p><a href="http://glyphicons.com" target="_blank">Glyphicons</a> provides these for free, SO LONG as proper attribution (or a license is purchased) from <a href="http://glyphicons.com/" target="_blank">Jan Kovařík</a></p>
     </div>
     <div class="span4">
       <h3>How to use</h3>
-      <p>Bootstrap uses an <code>&lt;i&gt;</code> tag for all icons, but they have no case class&mdash;only a shared prefix. To use, place the following code just about anywhere:</p>
+      <p>Bootstrap Glyphicons uses the same structure (<code>&lt;i&gt;</code> tag for all icons) just like Bootstrap, but to use the larger Glyphicons use an additional <code>icon-large</code>:</p>
 <pre class="prettyprint linenums">
-&lt;i class="icon-search"&gt;&lt;/i&gt;
+&lt;i class="icon-large icon-search"&gt;&lt;/i&gt;
 </pre>
       <p>There are also styles available for inverted (white) icons, made ready with one extra class:</p>
 <pre class="prettyprint linenums">
-&lt;i class="icon-search icon-white"&gt;&lt;/i&gt;
+&lt;i class="icon-search icon-large icon-white"&gt;&lt;/i&gt;
 </pre>
-      <p>There are 140 classes to choose from for your icons. Just add an <code>&lt;i&gt;</code> tag with the right classes and you're set. You can find the full list in <strong>sprites.less</strong> or right here in this document.</p>
-      <p>
-        <span class="label label-info">Heads up!</span>
-        When using beside strings of text, as in buttons or nav links, be sure to leave a space after the <code>&lt;i&gt;</code> tag for proper spacing.
-      </p>
+      <p><span class="label label-info">However,</span> this isn't supported yet.</p>
+      <p>There are over 400 classes to choose from for your icons, including the original 140 halflings from Twitter Bootstrap setup</p>
     </div>
     <div class="span4">
       <h3>Use cases</h3>
@@ -689,10 +686,11 @@
       <ul>
         <li>As visuals for your sidebar navigation</li>
         <li>For a purely icon-driven navigation</li>
-        <li>For buttons to help convey the meaning of an action</li>
+        <li>Icons next <code>&lt;h2&gt;</code> headings</li>
+        <li>For large buttons to help convey the meaning of an action</li>
         <li>With links to share context on a user's destination</li>
       </ul>
-      <p>Essentially, anywhere you can put an <code>&lt;i&gt;</code> tag, you can put an icon.</p>
+      <p>Essentially, anywhere you can put current <code>&lt;i&gt;</code> tag icons.</p>
     </div>
   </div>
 </section>
