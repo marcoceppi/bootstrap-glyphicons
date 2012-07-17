@@ -3,10 +3,10 @@
     background-position: 24px 24px;
     background-repeat: no-repeat;
     display: inline-block;
-    height: 27px;
-    line-height: 27px;
+    height: 28px;
+    line-height: 28px;
     vertical-align: text-bottom;
-    width: 27px;
+    width: 28px;
 }
 .icon-large.icon-glass{ background-position: 0 0;  } 
 .icon-large.icon-leaf{ background-position: 0 -34px;  } 
@@ -18,7 +18,7 @@
 .icon-large.icon-user-remove{ background-position: 0 -232px;  } 
 .icon-large.icon-film{ background-position: 0 -264px;  } 
 .icon-large.icon-magic{ background-position: 0 -300px;  } 
-.icon-large.icon-envelope{ background-position: 0 -334px;  } 
+.icon-large.icon-envelope{ background-position: 0 -330px;  } 
 .icon-large.icon-camera{ background-position: 0 -360px;  } 
 .icon-large.icon-heart{ background-position: 0 -390px;  } 
 .icon-large.icon-beach-umbrella{ background-position: 0 -422px;  } 
@@ -61,8 +61,8 @@
 .icon-large.icon-star-empty{ background-position: 0 -1609px;  } 
 .icon-large.icon-star{ background-position: 0 -1643px;  } 
 .icon-large.icon-link{ background-position: 0 -1677px;  } 
-.icon-large.icon-eye-open{ background-position: 0 -1710px;  } 
-.icon-large.icon-eye-close{ background-position: 0 -1737px;  } 
+.icon-large.icon-eye-open{ background-position: -1px -1704px;  } 
+.icon-large.icon-eye-close{ background-position: -1px -1737px;  } 
 .icon-large.icon-alarm{ background-position: 0 -1771px;  } 
 .icon-large.icon-clock{ background-position: 0 -1807px;  } 
 .icon-large.icon-time{ background-position: 0 -1807px;  } 
@@ -84,7 +84,7 @@
 .icon-large.icon-gift{ background-position: -46px -305px;  } 
 .icon-large.icon-umbrella{ background-position: -46px -340px;  } 
 .icon-large.icon-book{ background-position: -46px -378px;  } 
-.icon-large.icon-bookmark{ background-position: -46px -412px;  } 
+.icon-large.icon-bookmark{ background-position: -44px -412px;  } 
 .icon-large.icon-signal{ background-position: -46px -446px;  } 
 .icon-large.icon-cup{ background-position: -46px -479px;  } 
 .icon-large.icon-stroller{ background-position: -46px -513px;  } 
@@ -92,7 +92,7 @@
 .icon-large.icon-headset{ background-position: -46px -583px;  } 
 .icon-large.icon-warning-sign{ background-position: -46px -621px;  } 
 .icon-large.icon-signal{ background-position: -46px -655px;  } 
-.icon-large.icon-retweet{ background-position: -46px -689px;  } 
+.icon-large.icon-retweet{ background-position: -47px -680px  } 
 .icon-large.icon-refresh{ background-position: -46px -714px;  } 
 .icon-large.icon-roundabout{ background-position: -46px -750px;  } 
 .icon-large.icon-random{ background-position: -46px -787px;  } 
@@ -130,8 +130,8 @@
 .icon-large.icon-list{ background-position: -46px -1829px;  } 
 .icon-large.icon-text-smaller{ background-position: -46px -1860px;  } 
 .icon-large.icon-text-bigger{ background-position: -46px -1886px;  } 
-.icon-large.icon-embed{ background-position: -46px -1918px;  } 
-.icon-large.icon-embed-close{ background-position: -46px -1942px;  } 
+.icon-large.icon-embed{ background-position: -47px -1910px;  } 
+.icon-large.icon-embed-close{ background-position: -47px -1940px;  } 
 .icon-large.icon-adjust{ background-position: -46px -1976px;  } 
 .icon-large.icon-message-full{ background-position: -92px 0;  } 
 .icon-large.icon-message-empty{ background-position: -92px -38px;  } 
@@ -198,9 +198,8 @@
 .icon-large.icon-eject{ background-position: -92px -1921px;  } 
 .icon-large.icon-facetime-video{ background-position: -92px -1948px;  } 
 .icon-large.icon-download-alt{ background-position: -92px -1974px;  } 
-.icon-large.icon-mute{ background-position: -138px 0;  } 
-.icon-large.icon-volume-off{ background-position: -138px 0;  } 
-.icon-large.icon-volume-down{ background-position: -138px -26px;  } 
+.icon-large.icon-mute, .icon-large.icon-volume-off{ background-position: -138px 4px;  } 
+.icon-large.icon-volume-down{ background-position: -134px -22px;  } 
 .icon-large.icon-volume-up{ background-position: -138px -52px;  } 
 .icon-large.icon-screenshot{ background-position: -138px -88px;  } 
 .icon-large.icon-move{ background-position: -138px -125px;  } 
