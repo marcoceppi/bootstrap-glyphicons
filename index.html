@@ -1,66 +1,431 @@
-<!doctype html>
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Bootstrap-glyphicons by marcoceppi</title>
+    <title>Bootstrap Glyphicons</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Glyphicon support for Twitter's Bootstrap">
+    <meta name="author" content="Marco Ceppi">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Bootstrap-glyphicons</h1>
-        <p>Regular Glphyicon drop in for Bootstrap</p>
-
-        <p class="view"><a href="https://github.com/marcoceppi/bootstrap-glyphicons">View the Project on GitHub <small>marcoceppi/bootstrap-glyphicons</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/marcoceppi/bootstrap-glyphicons/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/marcoceppi/bootstrap-glyphicons/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/marcoceppi/bootstrap-glyphicons">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/marcoceppi">marcoceppi</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/bootstrap.icon-large.min.css" rel="stylesheet">
+    <link href="http://twitter.github.com/bootstrap/assets/css/docs.css" rel="stylesheet">
+    <style type="text/css">
+    body { background-position: 0 0; padding-top: 30px; }
+    section { padding-top: 25px; }
+    ul.the-icons li { font-size: 18px; vertical-align: middle; padding-bottom: 10px; }
     
+    </style>
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-33443205-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+
+    <div class="container">
+
+<!-- Masthead
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+  <h1>Bootstrap Glyphicons</h1>
+  <p class="lead">Because sometimes you need a little more than 12x12 icons for your projects.</p>
+</header>
+
+<!-- Icons
+================================================== -->
+<section id="icons">
+  <div class="page-header">
+    <h1>Halfling Icons <small>Graciously provided by <a href="http://glyphicons.com" target="_blank">Glyphicons</a></small></h1>
+  </div>
+  <div class="row">
+    <div class="span3">
+      <ul class="the-icons">
+        <li><i class="icon-large icon-glass"></i> icon-glass</li>
+        <li><i class="icon-large icon-music"></i> icon-music</li>
+        <li><i class="icon-large icon-search"></i> icon-search</li>
+        <li><i class="icon-large icon-envelope"></i> icon-envelope</li>
+        <li><i class="icon-large icon-heart"></i> icon-heart</li>
+        <li><i class="icon-large icon-star"></i> icon-star</li>
+        <li><i class="icon-large icon-star-empty"></i> icon-star-empty</li>
+        <li><i class="icon-large icon-user"></i> icon-user</li>
+        <li><i class="icon-large icon-film"></i> icon-film</li>
+        <li><i class="icon-large icon-th-large"></i> icon-th-large</li>
+        <li><i class="icon-large icon-th"></i> icon-th</li>
+        <li><i class="icon-large icon-th-list"></i> icon-th-list</li>
+        <li><i class="icon-large icon-ok"></i> icon-ok</li>
+        <li><i class="icon-large icon-remove"></i> icon-remove</li>
+        <li><i class="icon-large icon-zoom-in"></i> icon-zoom-in</li>
+        <li><i class="icon-large icon-zoom-out"></i> icon-zoom-out</li>
+        <li><i class="icon-large icon-off"></i> icon-off</li>
+        <li><i class="icon-large icon-signal"></i> icon-signal</li>
+        <li><i class="icon-large icon-cog"></i> icon-cog</li>
+        <li><i class="icon-large icon-trash"></i> icon-trash</li>
+        <li><i class="icon-large icon-home"></i> icon-home</li>
+        <li><i class="icon-large icon-file"></i> icon-file</li>
+        <li><i class="icon-large icon-time"></i> icon-time</li>
+        <li><i class="icon-large icon-road"></i> icon-road</li>
+        <li><i class="icon-large icon-download-alt"></i> icon-download-alt</li>
+        <li><i class="icon-large icon-download"></i> icon-download</li>
+        <li><i class="icon-large icon-upload"></i> icon-upload</li>
+        <li><i class="icon-large icon-inbox"></i> icon-inbox</li>
+        <li><i class="icon-large icon-play-circle"></i> icon-play-circle</li>
+        <li><i class="icon-large icon-repeat"></i> icon-repeat</li>
+        <li><i class="icon-large icon-refresh"></i> icon-refresh</li>
+        <li><i class="icon-large icon-list-alt"></i> icon-list-alt</li>
+        <li><i class="icon-large icon-lock"></i> icon-lock</li>
+        <li><i class="icon-large icon-flag"></i> icon-flag</li>
+        <li><i class="icon-large icon-headphones"></i> icon-headphones</li>
+      </ul>
+    </div>
+    <div class="span3">
+      <ul class="the-icons">
+        <li><i class="icon-large icon-volume-off"></i> icon-volume-off</li>
+        <li><i class="icon-large icon-volume-down"></i> icon-volume-down</li>
+        <li><i class="icon-large icon-volume-up"></i> icon-volume-up</li>
+        <li><i class="icon-large icon-qrcode"></i> icon-qrcode</li>
+        <li><i class="icon-large icon-barcode"></i> icon-barcode</li>
+        <li><i class="icon-large icon-tag"></i> icon-tag</li>
+        <li><i class="icon-large icon-tags"></i> icon-tags</li>
+        <li><i class="icon-large icon-book"></i> icon-book</li>
+        <li><i class="icon-large icon-bookmark"></i> icon-bookmark</li>
+        <li><i class="icon-large icon-print"></i> icon-print</li>
+        <li><i class="icon-large icon-camera"></i> icon-camera</li>
+        <li><i class="icon-large icon-font"></i> icon-font</li>
+        <li><i class="icon-large icon-bold"></i> icon-bold</li>
+        <li><i class="icon-large icon-italic"></i> icon-italic</li>
+        <li><i class="icon-large icon-text-height"></i> icon-text-height</li>
+        <li><i class="icon-large icon-text-width"></i> icon-text-width</li>
+        <li><i class="icon-large icon-align-left"></i> icon-align-left</li>
+        <li><i class="icon-large icon-align-center"></i> icon-align-center</li>
+        <li><i class="icon-large icon-align-right"></i> icon-align-right</li>
+        <li><i class="icon-large icon-align-justify"></i> icon-align-justify</li>
+        <li><i class="icon-large icon-list"></i> icon-list</li>
+        <li><i class="icon-large icon-indent-left"></i> icon-indent-left</li>
+        <li><i class="icon-large icon-indent-right"></i> icon-indent-right</li>
+        <li><i class="icon-large icon-facetime-video"></i> icon-facetime-video</li>
+        <li><i class="icon-large icon-picture"></i> icon-picture</li>
+        <li><i class="icon-large icon-pencil"></i> icon-pencil</li>
+        <li><i class="icon-large icon-map-marker"></i> icon-map-marker</li>
+        <li><i class="icon-large icon-adjust"></i> icon-adjust</li>
+        <li><i class="icon-large icon-tint"></i> icon-tint</li>
+        <li><i class="icon-large icon-edit"></i> icon-edit</li>
+        <li><i class="icon-large icon-share"></i> icon-share</li>
+        <li><i class="icon-large icon-check"></i> icon-check</li>
+        <li><i class="icon-large icon-move"></i> icon-move</li>
+        <li><i class="icon-large icon-step-backward"></i> icon-step-backward</li>
+        <li><i class="icon-large icon-fast-backward"></i> icon-fast-backward</li>
+      </ul>
+    </div>
+    <div class="span3">
+      <ul class="the-icons">
+        <li><i class="icon-large icon-backward"></i> icon-backward</li>
+        <li><i class="icon-large icon-play"></i> icon-play</li>
+        <li><i class="icon-large icon-pause"></i> icon-pause</li>
+        <li><i class="icon-large icon-stop"></i> icon-stop</li>
+        <li><i class="icon-large icon-forward"></i> icon-forward</li>
+        <li><i class="icon-large icon-fast-forward"></i> icon-fast-forward</li>
+        <li><i class="icon-large icon-step-forward"></i> icon-step-forward</li>
+        <li><i class="icon-large icon-eject"></i> icon-eject</li>
+        <li><i class="icon-large icon-chevron-left"></i> icon-chevron-left</li>
+        <li><i class="icon-large icon-chevron-right"></i> icon-chevron-right</li>
+        <li><i class="icon-large icon-plus-sign"></i> icon-plus-sign</li>
+        <li><i class="icon-large icon-minus-sign"></i> icon-minus-sign</li>
+        <li><i class="icon-large icon-remove-sign"></i> icon-remove-sign</li>
+        <li><i class="icon-large icon-ok-sign"></i> icon-ok-sign</li>
+        <li><i class="icon-large icon-question-sign"></i> icon-question-sign</li>
+        <li><i class="icon-large icon-info-sign"></i> icon-info-sign</li>
+        <li><i class="icon-large icon-screenshot"></i> icon-screenshot</li>
+        <li><i class="icon-large icon-remove-circle"></i> icon-remove-circle</li>
+        <li><i class="icon-large icon-ok-circle"></i> icon-ok-circle</li>
+        <li><i class="icon-large icon-ban-circle"></i> icon-ban-circle</li>
+        <li><i class="icon-large icon-arrow-left"></i> icon-arrow-left</li>
+        <li><i class="icon-large icon-arrow-right"></i> icon-arrow-right</li>
+        <li><i class="icon-large icon-arrow-up"></i> icon-arrow-up</li>
+        <li><i class="icon-large icon-arrow-down"></i> icon-arrow-down</li>
+        <li><i class="icon-large icon-share-alt"></i> icon-share-alt</li>
+        <li><i class="icon-large icon-resize-full"></i> icon-resize-full</li>
+        <li><i class="icon-large icon-resize-small"></i> icon-resize-small</li>
+        <li><i class="icon-large icon-plus"></i> icon-plus</li>
+        <li><i class="icon-large icon-minus"></i> icon-minus</li>
+        <li><i class="icon-large icon-asterisk"></i> icon-asterisk</li>
+        <li><i class="icon-large icon-exclamation-sign"></i> icon-exclamation-sign</li>
+        <li><i class="icon-large icon-gift"></i> icon-gift</li>
+        <li><i class="icon-large icon-leaf"></i> icon-leaf</li>
+        <li><i class="icon-large icon-fire"></i> icon-fire</li>
+        <li><i class="icon-large icon-eye-open"></i> icon-eye-open</li>
+      </ul>
+    </div>
+    <div class="span3">
+      <ul class="the-icons">
+        <li><i class="icon-large icon-eye-close"></i> icon-eye-close</li>
+        <li><i class="icon-large icon-warning-sign"></i> icon-warning-sign</li>
+        <li><i class="icon-large icon-plane"></i> icon-plane</li>
+        <li><i class="icon-large icon-calendar"></i> icon-calendar</li>
+        <li><i class="icon-large icon-random"></i> icon-random</li>
+        <li><i class="icon-large icon-comment"></i> icon-comment</li>
+        <li><i class="icon-large icon-magnet"></i> icon-magnet</li>
+        <li><i class="icon-large icon-chevron-up"></i> icon-chevron-up</li>
+        <li><i class="icon-large icon-chevron-down"></i> icon-chevron-down</li>
+        <li><i class="icon-large icon-retweet"></i> icon-retweet</li>
+        <li><i class="icon-large icon-shopping-cart"></i> icon-shopping-cart</li>
+        <li><i class="icon-large icon-folder-close"></i> icon-folder-close</li>
+        <li><i class="icon-large icon-folder-open"></i> icon-folder-open</li>
+        <li><i class="icon-large icon-resize-vertical"></i> icon-resize-vertical</li>
+        <li><i class="icon-large icon-resize-horizontal"></i> icon-resize-horizontal</li>
+        <li><i class="icon-large icon-hdd"></i> icon-hdd</li>
+        <li><i class="icon-large icon-bullhorn"></i> icon-bullhorn</li>
+        <li><i class="icon-large icon-bell"></i> icon-bell</li>
+        <li><i class="icon-large icon-certificate"></i> icon-certificate</li>
+        <li><i class="icon-large icon-thumbs-up"></i> icon-thumbs-up</li>
+        <li><i class="icon-large icon-thumbs-down"></i> icon-thumbs-down</li>
+        <li><i class="icon-large icon-hand-right"></i> icon-hand-right</li>
+        <li><i class="icon-large icon-hand-left"></i> icon-hand-left</li>
+        <li><i class="icon-large icon-hand-up"></i> icon-hand-up</li>
+        <li><i class="icon-large icon-hand-down"></i> icon-hand-down</li>
+        <li><i class="icon-large icon-circle-arrow-right"></i> icon-circle-arrow-right</li>
+        <li><i class="icon-large icon-circle-arrow-left"></i> icon-circle-arrow-left</li>
+        <li><i class="icon-large icon-circle-arrow-up"></i> icon-circle-arrow-up</li>
+        <li><i class="icon-large icon-circle-arrow-down"></i> icon-circle-arrow-down</li>
+        <li><i class="icon-large icon-globe"></i> icon-globe</li>
+        <li><i class="icon-large icon-wrench"></i> icon-wrench</li>
+        <li><i class="icon-large icon-tasks"></i> icon-tasks</li>
+        <li><i class="icon-large icon-filter"></i> icon-filter</li>
+        <li><i class="icon-large icon-briefcase"></i> icon-briefcase</li>
+        <li><i class="icon-large icon-fullscreen"></i> icon-fullscreen</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="page-header">
+    <h1>260 other icons <small>still graciously provided by <a href="http://glyphicons.com" target="_blank">Glyphicons</a></small></h1>
+  </div>
+  <div class="row">
+    <div class="span3">
+      <ul class="the-icons">
+        <li><i class="icon-large icon-glass"></i> icon-glass</li>
+        <li><i class="icon-large icon-music"></i> icon-music</li>
+        <li><i class="icon-large icon-search"></i> icon-search</li>
+        <li><i class="icon-large icon-envelope"></i> icon-envelope</li>
+        <li><i class="icon-large icon-heart"></i> icon-heart</li>
+        <li><i class="icon-large icon-star"></i> icon-star</li>
+        <li><i class="icon-large icon-star-empty"></i> icon-star-empty</li>
+        <li><i class="icon-large icon-user"></i> icon-user</li>
+        <li><i class="icon-large icon-film"></i> icon-film</li>
+        <li><i class="icon-large icon-th-large"></i> icon-th-large</li>
+        <li><i class="icon-large icon-th"></i> icon-th</li>
+        <li><i class="icon-large icon-th-list"></i> icon-th-list</li>
+        <li><i class="icon-large icon-ok"></i> icon-ok</li>
+        <li><i class="icon-large icon-remove"></i> icon-remove</li>
+        <li><i class="icon-large icon-zoom-in"></i> icon-zoom-in</li>
+        <li><i class="icon-large icon-zoom-out"></i> icon-zoom-out</li>
+        <li><i class="icon-large icon-off"></i> icon-off</li>
+        <li><i class="icon-large icon-signal"></i> icon-signal</li>
+        <li><i class="icon-large icon-cog"></i> icon-cog</li>
+        <li><i class="icon-large icon-trash"></i> icon-trash</li>
+        <li><i class="icon-large icon-home"></i> icon-home</li>
+        <li><i class="icon-large icon-file"></i> icon-file</li>
+        <li><i class="icon-large icon-time"></i> icon-time</li>
+        <li><i class="icon-large icon-road"></i> icon-road</li>
+        <li><i class="icon-large icon-download-alt"></i> icon-download-alt</li>
+        <li><i class="icon-large icon-download"></i> icon-download</li>
+        <li><i class="icon-large icon-upload"></i> icon-upload</li>
+        <li><i class="icon-large icon-inbox"></i> icon-inbox</li>
+        <li><i class="icon-large icon-play-circle"></i> icon-play-circle</li>
+        <li><i class="icon-large icon-repeat"></i> icon-repeat</li>
+        <li><i class="icon-large icon-refresh"></i> icon-refresh</li>
+        <li><i class="icon-large icon-list-alt"></i> icon-list-alt</li>
+        <li><i class="icon-large icon-lock"></i> icon-lock</li>
+        <li><i class="icon-large icon-flag"></i> icon-flag</li>
+        <li><i class="icon-large icon-headphones"></i> icon-headphones</li>
+      </ul>
+    </div>
+    <div class="span3">
+      <ul class="the-icons">
+        <li><i class="icon-large icon-volume-off"></i> icon-volume-off</li>
+        <li><i class="icon-large icon-volume-down"></i> icon-volume-down</li>
+        <li><i class="icon-large icon-volume-up"></i> icon-volume-up</li>
+        <li><i class="icon-large icon-qrcode"></i> icon-qrcode</li>
+        <li><i class="icon-large icon-barcode"></i> icon-barcode</li>
+        <li><i class="icon-large icon-tag"></i> icon-tag</li>
+        <li><i class="icon-large icon-tags"></i> icon-tags</li>
+        <li><i class="icon-large icon-book"></i> icon-book</li>
+        <li><i class="icon-large icon-bookmark"></i> icon-bookmark</li>
+        <li><i class="icon-large icon-print"></i> icon-print</li>
+        <li><i class="icon-large icon-camera"></i> icon-camera</li>
+        <li><i class="icon-large icon-font"></i> icon-font</li>
+        <li><i class="icon-large icon-bold"></i> icon-bold</li>
+        <li><i class="icon-large icon-italic"></i> icon-italic</li>
+        <li><i class="icon-large icon-text-height"></i> icon-text-height</li>
+        <li><i class="icon-large icon-text-width"></i> icon-text-width</li>
+        <li><i class="icon-large icon-align-left"></i> icon-align-left</li>
+        <li><i class="icon-large icon-align-center"></i> icon-align-center</li>
+        <li><i class="icon-large icon-align-right"></i> icon-align-right</li>
+        <li><i class="icon-large icon-align-justify"></i> icon-align-justify</li>
+        <li><i class="icon-large icon-list"></i> icon-list</li>
+        <li><i class="icon-large icon-indent-left"></i> icon-indent-left</li>
+        <li><i class="icon-large icon-indent-right"></i> icon-indent-right</li>
+        <li><i class="icon-large icon-facetime-video"></i> icon-facetime-video</li>
+        <li><i class="icon-large icon-picture"></i> icon-picture</li>
+        <li><i class="icon-large icon-pencil"></i> icon-pencil</li>
+        <li><i class="icon-large icon-map-marker"></i> icon-map-marker</li>
+        <li><i class="icon-large icon-adjust"></i> icon-adjust</li>
+        <li><i class="icon-large icon-tint"></i> icon-tint</li>
+        <li><i class="icon-large icon-edit"></i> icon-edit</li>
+        <li><i class="icon-large icon-share"></i> icon-share</li>
+        <li><i class="icon-large icon-check"></i> icon-check</li>
+        <li><i class="icon-large icon-move"></i> icon-move</li>
+        <li><i class="icon-large icon-step-backward"></i> icon-step-backward</li>
+        <li><i class="icon-large icon-fast-backward"></i> icon-fast-backward</li>
+      </ul>
+    </div>
+    <div class="span3">
+      <ul class="the-icons">
+        <li><i class="icon-large icon-backward"></i> icon-backward</li>
+        <li><i class="icon-large icon-play"></i> icon-play</li>
+        <li><i class="icon-large icon-pause"></i> icon-pause</li>
+        <li><i class="icon-large icon-stop"></i> icon-stop</li>
+        <li><i class="icon-large icon-forward"></i> icon-forward</li>
+        <li><i class="icon-large icon-fast-forward"></i> icon-fast-forward</li>
+        <li><i class="icon-large icon-step-forward"></i> icon-step-forward</li>
+        <li><i class="icon-large icon-eject"></i> icon-eject</li>
+        <li><i class="icon-large icon-chevron-left"></i> icon-chevron-left</li>
+        <li><i class="icon-large icon-chevron-right"></i> icon-chevron-right</li>
+        <li><i class="icon-large icon-plus-sign"></i> icon-plus-sign</li>
+        <li><i class="icon-large icon-minus-sign"></i> icon-minus-sign</li>
+        <li><i class="icon-large icon-remove-sign"></i> icon-remove-sign</li>
+        <li><i class="icon-large icon-ok-sign"></i> icon-ok-sign</li>
+        <li><i class="icon-large icon-question-sign"></i> icon-question-sign</li>
+        <li><i class="icon-large icon-info-sign"></i> icon-info-sign</li>
+        <li><i class="icon-large icon-screenshot"></i> icon-screenshot</li>
+        <li><i class="icon-large icon-remove-circle"></i> icon-remove-circle</li>
+        <li><i class="icon-large icon-ok-circle"></i> icon-ok-circle</li>
+        <li><i class="icon-large icon-ban-circle"></i> icon-ban-circle</li>
+        <li><i class="icon-large icon-arrow-left"></i> icon-arrow-left</li>
+        <li><i class="icon-large icon-arrow-right"></i> icon-arrow-right</li>
+        <li><i class="icon-large icon-arrow-up"></i> icon-arrow-up</li>
+        <li><i class="icon-large icon-arrow-down"></i> icon-arrow-down</li>
+        <li><i class="icon-large icon-share-alt"></i> icon-share-alt</li>
+        <li><i class="icon-large icon-resize-full"></i> icon-resize-full</li>
+        <li><i class="icon-large icon-resize-small"></i> icon-resize-small</li>
+        <li><i class="icon-large icon-plus"></i> icon-plus</li>
+        <li><i class="icon-large icon-minus"></i> icon-minus</li>
+        <li><i class="icon-large icon-asterisk"></i> icon-asterisk</li>
+        <li><i class="icon-large icon-exclamation-sign"></i> icon-exclamation-sign</li>
+        <li><i class="icon-large icon-gift"></i> icon-gift</li>
+        <li><i class="icon-large icon-leaf"></i> icon-leaf</li>
+        <li><i class="icon-large icon-fire"></i> icon-fire</li>
+        <li><i class="icon-large icon-eye-open"></i> icon-eye-open</li>
+      </ul>
+    </div>
+    <div class="span3">
+      <ul class="the-icons">
+        <li><i class="icon-large icon-eye-close"></i> icon-eye-close</li>
+        <li><i class="icon-large icon-warning-sign"></i> icon-warning-sign</li>
+        <li><i class="icon-large icon-plane"></i> icon-plane</li>
+        <li><i class="icon-large icon-calendar"></i> icon-calendar</li>
+        <li><i class="icon-large icon-random"></i> icon-random</li>
+        <li><i class="icon-large icon-comment"></i> icon-comment</li>
+        <li><i class="icon-large icon-magnet"></i> icon-magnet</li>
+        <li><i class="icon-large icon-chevron-up"></i> icon-chevron-up</li>
+        <li><i class="icon-large icon-chevron-down"></i> icon-chevron-down</li>
+        <li><i class="icon-large icon-retweet"></i> icon-retweet</li>
+        <li><i class="icon-large icon-shopping-cart"></i> icon-shopping-cart</li>
+        <li><i class="icon-large icon-folder-close"></i> icon-folder-close</li>
+        <li><i class="icon-large icon-folder-open"></i> icon-folder-open</li>
+        <li><i class="icon-large icon-resize-vertical"></i> icon-resize-vertical</li>
+        <li><i class="icon-large icon-resize-horizontal"></i> icon-resize-horizontal</li>
+        <li><i class="icon-large icon-hdd"></i> icon-hdd</li>
+        <li><i class="icon-large icon-bullhorn"></i> icon-bullhorn</li>
+        <li><i class="icon-large icon-bell"></i> icon-bell</li>
+        <li><i class="icon-large icon-certificate"></i> icon-certificate</li>
+        <li><i class="icon-large icon-thumbs-up"></i> icon-thumbs-up</li>
+        <li><i class="icon-large icon-thumbs-down"></i> icon-thumbs-down</li>
+        <li><i class="icon-large icon-hand-right"></i> icon-hand-right</li>
+        <li><i class="icon-large icon-hand-left"></i> icon-hand-left</li>
+        <li><i class="icon-large icon-hand-up"></i> icon-hand-up</li>
+        <li><i class="icon-large icon-hand-down"></i> icon-hand-down</li>
+        <li><i class="icon-large icon-circle-arrow-right"></i> icon-circle-arrow-right</li>
+        <li><i class="icon-large icon-circle-arrow-left"></i> icon-circle-arrow-left</li>
+        <li><i class="icon-large icon-circle-arrow-up"></i> icon-circle-arrow-up</li>
+        <li><i class="icon-large icon-circle-arrow-down"></i> icon-circle-arrow-down</li>
+        <li><i class="icon-large icon-globe"></i> icon-globe</li>
+        <li><i class="icon-large icon-wrench"></i> icon-wrench</li>
+        <li><i class="icon-large icon-tasks"></i> icon-tasks</li>
+        <li><i class="icon-large icon-filter"></i> icon-filter</li>
+        <li><i class="icon-large icon-briefcase"></i> icon-briefcase</li>
+        <li><i class="icon-large icon-fullscreen"></i> icon-fullscreen</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section>
+
+  <br>
+
+  <div class="row">
+    <div class="span4">
+      <h3>Built as a sprite</h3>
+      <p>Instead of making every icon an extra request, we've compiled them into a sprite&mdash;a bunch of images in one file that uses CSS to position the images with <code>background-position</code>. This is the same method we use on Twitter.com and it has worked well for us.</p>
+      <p>All icons classes are prefixed with <code>.icon-</code> for proper namespacing and scoping, much like our other components. This will help avoid conflicts with other tools.</p>
+      <p><a href="http://glyphicons.com" target="_blank">Glyphicons</a> has granted us use of the Halflings set in our open-source toolkit so long as we provide a link and credit here in the docs. Please consider doing the same in your projects.</p>
+    </div>
+    <div class="span4">
+      <h3>How to use</h3>
+      <p>Bootstrap uses an <code>&lt;i&gt;</code> tag for all icons, but they have no case class&mdash;only a shared prefix. To use, place the following code just about anywhere:</p>
+<pre class="prettyprint linenums">
+&lt;i class="icon-search"&gt;&lt;/i&gt;
+</pre>
+      <p>There are also styles available for inverted (white) icons, made ready with one extra class:</p>
+<pre class="prettyprint linenums">
+&lt;i class="icon-search icon-white"&gt;&lt;/i&gt;
+</pre>
+      <p>There are 140 classes to choose from for your icons. Just add an <code>&lt;i&gt;</code> tag with the right classes and you're set. You can find the full list in <strong>sprites.less</strong> or right here in this document.</p>
+      <p>
+        <span class="label label-info">Heads up!</span>
+        When using beside strings of text, as in buttons or nav links, be sure to leave a space after the <code>&lt;i&gt;</code> tag for proper spacing.
+      </p>
+    </div>
+    <div class="span4">
+      <h3>Use cases</h3>
+      <p>Icons are great, but where would one use them? Here are a few ideas:</p>
+      <ul>
+        <li>As visuals for your sidebar navigation</li>
+        <li>For a purely icon-driven navigation</li>
+        <li>For buttons to help convey the meaning of an action</li>
+        <li>With links to share context on a user's destination</li>
+      </ul>
+      <p>Essentially, anywhere you can put an <code>&lt;i&gt;</code> tag, you can put an icon.</p>
+    </div>
+  </div>
+</section>
+     <!-- Footer
+      ================================================== -->
+      <footer class="footer">
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p><a href="http://marcoceppi.com" target="_blank">Marco Ceppi</a> made this little add-on because he's also a lazy developer.</p>
+        <p>Bootstrap was designed and built by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>. Fabulous icons from <a href="http://glyphicons.com">Glyphicons Free</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+      </footer>
+    </div><!-- /container -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
+    <script src="js/bootstrap.js"></script>
+
   </body>
 </html>
+
