@@ -11,6 +11,6 @@ To use this within your site you **NEED** to do the following:
  2. Download `glyphicons.png` and place it in the same directory as glyphicons-halflings.png
  3. Add the following CSS definition under the bootstrap.css call
      `<link href="css/bootstrap.icon-large.min.css" rel="stylesheet">`
- 4. Clearly visible on the site (like the footer) add a link to [glyphicons.com](http://www.glyphicons.com/). This is a [requirement by the artist](http://glyphicons.com/glyphicons-licenses/) unless you purchasee the GLYPHICONS ALL or GLYPHICONS PRO plans. If you don't want to give attribution to the artist, at least pay him for his fantastic work.
+ 4. Clearly visible on the site (like the footer) add a link to [glyphicons.com](http://www.glyphicons.com/). This is a [requirement by the artist](http://glyphicons.com/glyphicons-licenses/) unless you purchase the GLYPHICONS ALL or GLYPHICONS PRO plans. If you don't want to give attribution to the artist, at least pay him for his fantastic work.
 
 That's it. You can find an entire listing of all the GLYPHICONS
