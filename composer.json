@@ -1,0 +1,17 @@
+{
+    "name": "mcloide/bootstrap-glyphicons",
+    "type": "package",
+    "description": "Bootstrap Glyphicons Support",
+    "keywords": ["bootstrap", "css", "glyphicons", "support", "bootstrap-glyphicons"],
+    "homepage": "https://github.com/mcloide/bootstrap-glyphicons",
+    "license": "MIT",
+    "authors": [
+		{
+			"name": "Marco Ceppi",
+		},
+        {
+            "name": "Cristiano Diniz da Silva",
+            "twitter": "@mcloide"
+        }
+    ]
+}
