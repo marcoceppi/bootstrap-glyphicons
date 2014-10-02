@@ -1,9 +1,9 @@
 {
-    "name": "mcloide/bootstrap-glyphicons",
+    "name": "marcoceppi/bootstrap-glyphicons",
     "type": "package",
     "description": "Bootstrap Glyphicons Support",
     "keywords": ["bootstrap", "css", "glyphicons", "support", "bootstrap-glyphicons"],
-    "homepage": "https://github.com/mcloide/bootstrap-glyphicons",
+    "homepage": "https://github.com/marcoceppi/bootstrap-glyphicons",
     "license": "MIT",
     "authors": [
 		{
